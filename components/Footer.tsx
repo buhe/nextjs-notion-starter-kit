@@ -1,6 +1,6 @@
 import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText'
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
-import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
+import { FaLinkedin } from '@react-icons/all-files/fa/FaBaseball'
 import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
@@ -104,8 +104,8 @@ export function FooterImpl() {
         {config.linkedin && (
           <a
             className={styles.linkedin}
-            href={`https://www.linkedin.com/in/${config.linkedin}`}
-            title={`LinkedIn ${config.author}`}
+            href={`https://xueqiu.com/#/?t=${config.linkedin}`}
+            title={`Xueqiu ${config.author}`}
             target='_blank'
             rel='noopener noreferrer'
           >
